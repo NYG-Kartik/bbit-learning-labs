@@ -38,5 +38,10 @@ if __name__ == "__main__":
     #
     #                       WRITE CODE HERE!!!
     #
+    print("Name of the program using sys.argv[0]: ", sys.argv[0])
+    print("Length of arguments given including program name: ", len(sys.argv))
+    print("Argument list: ", sys.argv)
+    print("Argument list type: ", type(sys.argv))
+    print("Give the first argument (after program name): ", sys.argv[1])    
 
     sys.exit(main(sector,queue))
